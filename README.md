@@ -10,6 +10,9 @@ mark code study in 2018
 + [《C++多线程编程实战》](https://book.douban.com/subject/26789912/)  **对应目录CPPMC**
   + 英文原名是《C++ Multithreading Cookbook》
   + 20180729金图借的，20180812也下到了电子版；*到底看一下哪天才能读完*
++ [《数据结构》算法实现及解析](https://book.douban.com/subject/1232045/) **对应目录GYFDS**
+  + 20180814下载到的电子版，评分8.2，说是对应严老太《数据结构》的全部实现。
+  + 同时当天开始看，每天来往github上提交点代码。
 
 
 ## 履历
