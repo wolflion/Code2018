@@ -5,6 +5,12 @@ mark code study in 2018
 
 + 目前比较喜欢的书，以主题或例子的方式去讲一个知识点，通过一个代码文件的方式去run，而不是只是通过文字描述或几行代码说明。
 
+### C
+
++ [《Unix/Linux编程实践教程》](https://book.douban.com/subject/1219329/) **对应目录UULP**
+  + 英名文《Understanding UNIX/LINUX Programming》
+  + 多年前就觉得这是本好书，但没有全书读完并敲遍代码。
+
 ### CPP
 
 + [《C++多线程编程实战》](https://book.douban.com/subject/26789912/)  **对应目录CPPMC**
