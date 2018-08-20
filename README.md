@@ -10,6 +10,7 @@ mark code study in 2018
 + [《Unix/Linux编程实践教程》](https://book.douban.com/subject/1219329/) **对应目录UULP**
   + 英名文《Understanding UNIX/LINUX Programming》
   + 多年前就觉得这是本好书，但没有全书读完并敲遍代码。
++ [《Linux C编程实战》](https://book.douban.com/subject/3031572/)  **对应目录LCBCSZ**
 
 ### CPP
 
