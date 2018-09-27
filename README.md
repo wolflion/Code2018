@@ -12,6 +12,9 @@ mark code study in 2018
   + 英名文《Understanding UNIX/LINUX Programming》
   + 多年前就觉得这是本好书，但没有全书读完并敲遍代码。
 + [《Linux C编程实战》](https://book.douban.com/subject/3031572/)  **对应目录LCBCSZ**
++ [《TCP/IP网络编程》](https://book.douban.com/subject/25911735/) **对应目录TCPIPNP**
+  + 觉得是本可以看得下去的书，书是**pdf电子书**，豆瓣评分8.4呢。
+  + 20180927开始读chap1，
 
 ### CPP
 
@@ -24,13 +27,13 @@ mark code study in 2018
 
 ### Go
 
-+ 《Go语言实战》对应目录GIA
++ 《Go语言实战》**对应目录GIA**
 
   + 英文原名是《Go In Action》
 
   + 这个之前是翻过一遍了，但是代码层面呢，一直是没啥系统弄，20180830把chap02给敲了一下，有data.json报错，但0831换成自己电脑的liteide运行，妥妥滴。
 
-+ 《Go程序设计语言》对应目录TGPL
++ 《Go程序设计语言》**对应目录TGPL**
 
   + 英文原名是《The Go Programming Language》
 
