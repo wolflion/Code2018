@@ -6,6 +6,8 @@
 
 ## 内容
 
++ 书中知识点的话，都在《TCPIP网络编程.md》了，这个主要是学习记录以及一些思考。
+
 ### D1周（0927-0930）
 
 #### 0927读完chap01和chap25
@@ -18,3 +20,20 @@
   + 1、要抽象一下client和server的流程（本章是TCP的），先记住，后面看到了，再好好思考。
   + 2、chap25里提到的《APUE》的学习方法，我之前是不是方法不太对，导致之前花了时间也没怎么掌握好。
   + 3、本质上网络编程还是操作系统函数，无非要理清一下网络这个业务的流程，以便用代码组织网络业务场景。
++ 其它
+  + 20170331写过 hello_server.c，但没有敲完。
+
+#### 0928读完chap02
+
++ 完成的
+  + 大
++ 遇到的问题
++ 思考
+  + 1、书中的[代码](http://www.orentec.co.kr/)，看了一下还是韩文，应该是出版社的地址，也没找到具体的哪本书。
+  + 2、就是把chap01的进行了部分改变
+    + 2.1
+      + hello_server_win.c->tcp_server_win.c  没有变化
+      + hello_client_win.c->tcp_client_win.c  更改read函数调用方式
+    + 2.2
+      + hello_server_win.c->tcp_server_win.c  没有变化
+      + hello_client_win.c->tcp_client_win.c  更改read函数调用方式
