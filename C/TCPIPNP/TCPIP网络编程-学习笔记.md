@@ -37,3 +37,7 @@
     + 2.2
       + hello_server_win.c->tcp_server_win.c  没有变化
       + hello_client_win.c->tcp_client_win.c  更改read函数调用方式
+
+#### 0929读了一点chap03
+
++ 今天*下午出门办户口去了*，就没有闲时看这个书了，还是晚上回来写了一个。
