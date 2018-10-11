@@ -1,20 +1,20 @@
 #include <string>
 #include <ctype.h>
-#include <malloc.h>  // mallocµÈ
-#include <limits> // INT MAXµÈ
-#include <stdio.h> // EOF(=^Z»òF6),NULL
+#include <malloc.h>  // mallocç­‰
+#include <limits> // INT MAXç­‰
+#include <stdio.h> // EOF(=^Zæˆ–F6),NULL
 #include <stdlib.h> // atoi()
 #include <io.h> // eof()
 #include <math.h> // floor(),ceil(),abs()
 #include <process.h> // exit()
 #include <iostream> // cout,cin
 
-// º¯Êı½á¹û×´Ì¬´úÂë
+// å‡½æ•°ç»“æœçŠ¶æ€ä»£ç 
 #define TRUE 1
 #define FALSE 0
 #define OK 1
 #define ERROR 0
 #define INFEASIBLE -1
-//#define OVERFLOW 2  //math.hÀïÒÑ¶¨ÒåÁËOVERFLOW£¬²¢±êÎª3
-typedef int Stutus;   // StatusÊÇº¯ÊıµÄÀàĞÍ£¬ÆäÖµÊÇº¯Êı½á¹û×´Ì¬´úÂë£¬ÈçOK
-typedef int Boolean;  // BooleanÊÇ²¼¶ûÀàĞÍ£¬ÆäÖµÊÇTRUE»òFALSE
+//#define OVERFLOW 2  //math.hé‡Œå·²å®šä¹‰äº†OVERFLOWï¼Œå¹¶æ ‡ä¸º3
+typedef int Status;   // Statusæ˜¯å‡½æ•°çš„ç±»å‹ï¼Œå…¶å€¼æ˜¯å‡½æ•°ç»“æœçŠ¶æ€ä»£ç ï¼Œå¦‚OK
+typedef int Boolean;  // Booleanæ˜¯å¸ƒå°”ç±»å‹ï¼Œå…¶å€¼æ˜¯TRUEæˆ–FALSE
