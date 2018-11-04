@@ -3,8 +3,15 @@
 #include <iostream>
 using namespace std;
 
-Point t;
+Point t;  // 全局对象(0,0)
 int main(){
-	Point s;
+	Point s;   // 局部对象 （随机值）
 	cout << s << t;
 }
+
+// g++ f0901.cpp 
+
+/*
+(-682734608,32767)
+(0,0)
+*/
