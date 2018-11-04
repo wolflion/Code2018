@@ -34,7 +34,7 @@ void Date::print()
 
 int main()
 {
-	Date *dp = new Date;
+	Date *dp = new Date;  // 与f0802.cpp的区别，就在于main里
 	dp->set(2000,12,6);
 	if (dp->isLeapYear())
 	{

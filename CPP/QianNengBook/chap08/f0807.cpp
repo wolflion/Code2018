@@ -27,7 +27,7 @@ int main()
 	Point s,t;
 	s.set(2,5);
 	t.set(3,1);
-	cout << s+t;
+	cout << s+t;  // 可以看作是cout << s.operator+(t)
 }
 
 //g++ f0807.cpp
