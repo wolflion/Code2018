@@ -68,7 +68,7 @@ public:
 void fn(Advisor& advisor)
 {
 	GraduateStudent gs("Yen Kay Doodle",advisor);
-	gs.display();
+	gs.display(); // 调用派生类成员函数display的语句
 }
 
 int main()

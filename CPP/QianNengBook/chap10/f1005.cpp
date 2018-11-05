@@ -1,5 +1,6 @@
 // f1005.cpp  ×éºÏ³É¼Ì³Ð
 #include "circle_compos.h"
+//#include "circle_inher.h"
 #include <iostream>
 using namespace std;
 
@@ -14,3 +15,12 @@ int main()
 	cout << "The area is "<<c.getArea()<<"\n";
 	cout << "The circumference is "<<c.getCircum()<<"\n";
 }
+
+// g++ f1005.cpp circle_compos.cpp point.cpp
+
+/*
+The radius is 3
+The point is (1,2)
+The area is 28.2743
+The circumference is 18.8496
+*/
