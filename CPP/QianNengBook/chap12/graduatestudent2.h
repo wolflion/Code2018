@@ -1,8 +1,9 @@
+// graduatestudent2.h
 #ifndef  HEADER_GRADUATESTUDENT
 #define  HEADER_GRADUATESTUDENT
 
 #include <iostream>
-#include "student.h"
+#include "student2.h"
 class Advisor{
 	int noOfMeeting;
 };
@@ -13,16 +14,11 @@ class GraduateStudent:public Student{
 public:
 	GraduateStudent(string pName="noName"):Student(pName),qualifierGrade(0)
 	{
-		//
+		type = GRADUATESTUDENT;
 	}
-	int getQualifier()
+	void calcTuition()
 	{
-		return qualifierGrade;
-	}
-	void display()
-	{
-		//Student::display();
-		std::cout<<" qualifierGrade=" << qualifierGrade<<"\n";
+		std::cout << "GraduateStudent tuition calculation.\n";
 	}
 };
 

@@ -10,19 +10,8 @@ public:
 	{
 		cout << "student\n";
 	}
-	void print()
+	void display()
 	{
 		cout << id << "\n";
-	}
-};
-
-class Tutor
-{
-	Student s;
-public:
-	Tutor(Student& st) :s(st)
-	{
-		cout << "tutuor\n";
-		s.print();
 	}
 };

@@ -11,3 +11,5 @@ int main()
 	gs.addCourse(3,3.0);
 	gs.display();
 }
+
+// 书中student.h没有指定，找了几个都不太对

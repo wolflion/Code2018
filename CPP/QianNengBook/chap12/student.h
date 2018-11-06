@@ -1,27 +1,28 @@
-// student.h
-#ifndef HEADER_STUDENT
-#define HEADER_STUDENT
-
+//student.h
 #include <iostream>
-using std::cout;
-using std::string;
+using namespace std;
 
-class Student{
-	string name;
-	int semesterHours;
-	double average;
+class Student
+{
+	const int id;
 public:
-	enum StudentType(STUDENT,GRADUATESTUDENT);
-	StudentType type;
-	Student(string pName = "noName"):name(pName),average(0),semesterHours(0),type(STUDENT)
+	Student(int d) :id(d)
 	{
-		//
+		cout << "student\n";
 	}
-
-	void calcTuition()
+	void print()
 	{
-		cout << "Student tuition calculation.\n";
+		cout << id << "\n";
 	}
 };
-#endif
-// HEADER_STUDENT
+
+class Tutor
+{
+	Student s;
+public:
+	Tutor(Student& st) :s(st)
+	{
+		cout << "tutuor\n";
+		s.print();
+	}
+};
