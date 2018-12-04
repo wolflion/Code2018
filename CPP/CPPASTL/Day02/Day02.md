@@ -25,7 +25,7 @@
 
 + 时长5:56min
 + 常见有4种
-  + static_cast：一般类型转换
+  + static_cast：一般类型转换，**具有继承关系的指针和引用，也可以**
   + dynamic_cast：通常在基类和派生类之间转换时使用
   + const_cast：主要针对const的转换
   + reinterpret_cast：用于进行没有任何关联之间的转换，比如一个字符指针转换为一个整型数
@@ -34,15 +34,22 @@
 
 + 时长20:38min
 
-+ 
 
-### 6、类型转换 const_cat和reinterpret_cat
+### 6、类型转换 const_cast和reinterpret_cast
+
++ 时长13:08min
 
 ### 7、异常理论概念
 
++ 时长12:49min
+
 ### 8、异常基本语法
 
++ 时长10:49min
+
 ### 9、上午课程回顾
+
++ 时长6:07min
 
 ### 10、 栈解旋
 
